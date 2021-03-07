@@ -1,0 +1,90 @@
+//Start Svg1
+.svg1 {
+  svg {
+    * {
+      transition: all 2s;
+    }
+    g {
+      path#Path-4 {
+        transform-origin: bottom;
+        transform-box: fill-box;
+        animation: plantLeft1 2s infinite;
+      }
+      path#Path-3 {
+        transform-box: fill-box;
+        transform-origin: bottom;
+        animation: plantLeft2 2s infinite;
+      }
+      path#Path-5 {
+        transform-box: fill-box;
+        transform-origin: bottom;
+        animation: plantRight1 2s infinite;
+      }
+      path#Path-6 {
+        transform-box: fill-box;
+        transform-origin: bottom;
+        animation: plantRight2 2s infinite;
+      }
+      #plant {
+        transform-box: fill-box;
+        transform-origin: bottom;
+        animation: plantRight3 2s infinite;
+      }
+    }
+  }
+}
+@keyframes plantLeft1 {
+  0% {
+    transform: translate(191px, 2175.292px);
+  }
+  50% {
+    transform: translate(191px, 2175.292px) rotate(5deg);
+  }
+  100% {
+    transform: translate(191px, 2175.292px);
+  }
+}
+@keyframes plantLeft2 {
+  0% {
+    transform: translate(268px, 2099.292px);
+  }
+  50% {
+    transform: translate(268px, 2099.292px) rotate(-2deg);
+  }
+  100% {
+    transform: translate(268px, 2099.292px);
+  }
+}
+@keyframes plantRight1 {
+  0% {
+    transform: translate(435px, 2176.292px);
+  }
+  50% {
+    transform: translate(435px, 2176.292px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(435px, 2176.292px);
+  }
+}
+@keyframes plantRight2 {
+  0% {
+    transform: translate(433px, 2101.292px);
+  }
+  50% {
+    transform: translate(433px, 2101.292px) rotate(2deg);
+  }
+  100% {
+    transform: translate(433px, 2101.292px);
+  }
+}
+@keyframes plantRight3 {
+  0% {
+    transform: translate(12px, -11px);
+  }
+  50% {
+    transform: translate(12px, -11px) rotate(2deg);
+  }
+  100% {
+    transform: translate(12px, -11px);
+  }
+}

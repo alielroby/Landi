@@ -1,0 +1,23 @@
+//=================================//
+//=====Start Landi Version 1.0.0=====//
+//=================================//
+
+//Start Color Vars
+$FontColor: #505f98;
+$FontColorS: #37447e;
+$BackgroundColor: #111b47;
+
+//Start Buttton
+.ButtonStroke {
+  overflow: hidden;
+  button {
+    border: 3px solid $BackgroundColor;
+    color: $FontColorS;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 60px;
+    cursor: pointer;
+    float: right;
+    text-transform: capitalize;
+  }
+}

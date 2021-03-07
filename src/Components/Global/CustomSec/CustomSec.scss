@@ -1,0 +1,36 @@
+//=================================//
+//=====Start Landi Version 1.0.0=====//
+//=================================//
+
+//Start Color Vars
+$FontColor: #505f98;
+$FontColorS: #37447e;
+$BackgroundColor: #111b47;
+
+//Start CustomSec
+.CustomSec {
+  min-height: 546px;
+  padding: 120px;
+
+  //Start Content
+  .content {
+    margin-top: 100px;
+    h2 {
+      color: $FontColorS;
+      font-size: 36px;
+    }
+    p {
+      font-size: 16px;
+      color: $FontColor;
+      line-height: 26px;
+      margin-top: 30px;
+      width: 80%;
+    }
+  }
+  .buttonFill {
+    margin-top: 30px;
+    button {
+      float: left;
+    }
+  }
+}

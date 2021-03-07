@@ -1,0 +1,59 @@
+//=================================//
+//=====Start Landi Version 1.0.0=====//
+//=================================//
+
+//Start Color Vars
+$FontColor: #505f98;
+$FontColorS: #37447e;
+$BackgroundColor: #111b47;
+
+// Start Section 2
+.Sec2 {
+  min-height: 742px;
+  .row {
+    &:nth-child(1) {
+      margin-top: 110px;
+    }
+    &:nth-child(2) {
+      margin-top: 90px;
+    }
+  }
+  //Start Content
+  .content {
+    margin-top: 100px;
+    h2 {
+      color: $FontColorS;
+      font-size: 36px;
+    }
+    p {
+      color: $FontColor;
+      line-height: 26px;
+      font-size: 15px;
+      width: 80%;
+      margin-top: 15px;
+    }
+  }
+  //Start Item
+  .item {
+    img {
+      height: 36px;
+      margin-bottom: 20px;
+    }
+    h5 {
+      color: $FontColor;
+    }
+    p {
+      font-size: 12px;
+      line-height: 18px;
+      color: #5d6970;
+      width: 90%;
+    }
+  }
+  //Start Img
+  .img {
+    overflow: hidden;
+    img {
+      float: right;
+    }
+  }
+}
